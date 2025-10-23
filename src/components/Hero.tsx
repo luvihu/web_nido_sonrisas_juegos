@@ -21,7 +21,6 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/20" />
       </div>
 
-      {/* Contenido principal */}
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -29,17 +28,13 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mb-10"
         >
-          {/* Badge destacado */}
-          <motion.div
+         <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 mb-24 md:mb-18 border border-white/30"
+            className="px-6 py-8 mb-24 md:mb-18 "
           >
-            <div className="w-2 h-2 bg-[#F9D74A] rounded-full animate-pulse" />
-            <span className="text-sm md:text-base font-semibold text-white">
-              🎉 Bienvenidos a nuestro mundo de aprendizaje
-            </span>
+           
           </motion.div>
 
           {/* Título principal */}
