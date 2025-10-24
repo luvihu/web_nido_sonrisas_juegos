@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import { FaFacebookF, FaInstagram, FaEnvelope, FaMapMarkerAlt, FaPhone, FaHeart } from "react-icons/fa";
 
 export default function Footer() {
-  const pathname = usePathname();
+   const pathname = usePathname();
   
    // Función para enlaces que siempre deben ir a la página principal
   const handleHomeNavigation = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
