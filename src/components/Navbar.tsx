@@ -47,7 +47,7 @@ export default function Navbar() {
             alt="Logo Nido Sonrisas y Juegos"
             width={isScrolled ? 110 : 176}
             height={isScrolled ? 60 : 100}
-            priority
+            priority={true}
             className={`transition-all duration-300 hover:scale-105 ${
               isScrolled ? 'w-32 sm:w-36 md:w-40 lg:w-40' : 'w-40 sm:w-44 md:w-52 lg:w-56'
             } h-auto`}

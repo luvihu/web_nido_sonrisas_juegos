@@ -12,7 +12,8 @@ export default function Hero() {
           alt="Niños jugando felices en el jardín del nido"
           fill
           className="object-cover"
-          priority
+          loading="lazy"
+          priority={false}
           quality={90}
         />
         {/* Overlay gradiente para mejor legibilidad */}
