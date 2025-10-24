@@ -67,7 +67,7 @@ export default function Hero() {
           className="flex justify-center items-center"
         >
           
-          <button className="border-2 border-white text-white hover:bg-white/20 font-semibold md:px-8 md:py-4 px-4 py-3 rounded-2xl transition-all duration-300 backdrop-blur-sm transform hover:scale-105 text-sm md:text-lg">
+          <button className="border-2 border-white text-white hover:bg-white/20 font-semibold md:px-6 md:py-4 px-4 py-3 rounded-2xl transition-all duration-300 backdrop-blur-sm transform hover:scale-105 text-sm md:text-lg">
             Contáctanos
           </button>
         </motion.div>
