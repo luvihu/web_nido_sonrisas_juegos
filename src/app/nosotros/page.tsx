@@ -23,7 +23,8 @@ export default function Nosotros() {
                 alt="Niños felices aprendiendo en el nido"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-500"
-                priority
+                loading="lazy"
+                priority={false}
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
               

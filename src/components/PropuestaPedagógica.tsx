@@ -38,9 +38,10 @@ export default function PropuestaPedagogica() {
           src="/images/taller.jpg"
           alt="Niños aprendiendo mediante el juego"
           fill
+          loading="lazy"
           className="object-cover rounded-2xl shadow-lg "
-          priority
-        />
+          priority={false}
+           />
         
       </div>
     </motion.section>

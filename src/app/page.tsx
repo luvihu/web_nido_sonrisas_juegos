@@ -6,7 +6,7 @@ import Valores from "@/components/Valores"
 
 export default function Home() {
   return (
-    <main className="pt-20 sm:pt-24 md:pt-29">
+    <main className="pt-2 sm:pt-6 md:pt-10 lg:pt-12">
       <Hero/>
       <Galeria/>
       <Valores/>

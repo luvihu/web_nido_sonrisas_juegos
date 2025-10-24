@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/images/colorido.jpg"
-          alt="Niños jugando felices en el jardín del nido"
+          alt="Niños jugando al pintar"
           fill
           className="object-cover"
           loading="lazy"
@@ -17,7 +17,7 @@ export default function Hero() {
           quality={90}
         />
         {/* Overlay gradiente para mejor legibilidad */}
-        <div className="absolute inset-0 bg-linear-to-r from-[#4B64A6]/70 to-[#5EC47B]/60 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#4B64A6]/70 to-[#5EC47B]/60 mix-blend-multiply" />
         {/* Overlay adicional para contraste */}
         <div className="absolute inset-0 bg-black/20" />
       </div>
@@ -29,11 +29,12 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mb-10"
         >
-         <motion.div
+         <motion.div                                  //C
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="px-6 py-8 mb-24 md:mb-18 "
+            // className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 mb-8 border border-white/30"
+            className="px-6 mb-24 md:mb-18 "
           >
            
           </motion.div>
@@ -85,7 +86,7 @@ export default function Hero() {
       </div>
 
       {/* Formas decorativas de fondo */}
-      <div className="absolute bottom-0 left-0 w-full h-24 md:h-32 bg-linear-to-t from-[#F8F9FA] to-transparent" />
+      <div className="absolute bottom-0 left-0 w-full h-24 md:h-32 bg-gradient-to-t from-[#F8F9FA] to-transparent" />
       
       {/* Elementos decorativos flotantes */}
       <div className="absolute top-20 left-10 opacity-20">

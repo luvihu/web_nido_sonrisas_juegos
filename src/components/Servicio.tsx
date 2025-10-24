@@ -131,6 +131,8 @@ export default function NuestrosServicios() {
                             alt={servicio.titulo}
                             width={350}
                             height={350}
+                            loading="lazy"
+                            priority={false}
                             className="rounded-xl shadow-lg object-cover w-full h-52 sm:h-56 md:h-64"
                           />
                         </motion.div>

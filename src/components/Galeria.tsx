@@ -77,6 +77,9 @@ export default function Galeria() {
                     alt={act.titulo}
                     fill
                     className="object-cover"
+                    loading="lazy"
+                    priority={false}
+                    quality={90}
                     
                   />
                 </div>
