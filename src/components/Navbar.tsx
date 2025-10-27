@@ -79,20 +79,20 @@ export default function Navbar() {
           </li>
           <li>
             <a 
-              href="#servicios" 
-              onClick={(e) => handleScroll(e, "servicios")} 
-              className="hover:text-[#F9D74A] transition py-2 block"
-            >
-              Servicios
-            </a>
-          </li>
-          <li>
-            <a 
               href="#galeria" 
               onClick={(e) => handleScroll(e, "galeria")} 
               className="hover:text-[#F9D74A] transition py-2 block"
             >
               Galería
+            </a>
+          </li>
+          <li>
+            <a 
+              href="#servicios" 
+              onClick={(e) => handleScroll(e, "servicios")} 
+              className="hover:text-[#F9D74A] transition py-2 block"
+            >
+              Servicios
             </a>
           </li>
           <li>
